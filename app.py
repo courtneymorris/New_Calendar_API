@@ -3,6 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
 from flask_cors import CORS
 
+
 app = Flask(__name__)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://wmbdpxpekigyzr:0b1acb3a7f12f98cf803336a18e70b4e0d297657724c9be4f89ea76644698248@ec2-52-70-205-234.compute-1.amazonaws.com:5432/d4c6tsn8ndfn3l"
